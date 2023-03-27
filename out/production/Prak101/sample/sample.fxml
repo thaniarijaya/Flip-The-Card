@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane prefHeight="614.0" prefWidth="505.0">
+         <children>
+            <Button fx:id="zeroCard" layoutX="14.0" layoutY="45.0" mnemonicParsing="false" onAction="#clickZero" prefHeight="118.0" prefWidth="75.0">
+               <graphic>
+                  <ImageView fx:id="zero" fitHeight="100.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../kartu%20belakang.PNG" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="oneCard" layoutX="108.0" layoutY="45.0" mnemonicParsing="false" onAction="#clickOne" prefHeight="110.0" prefWidth="63.0">
+               <graphic>
+                  <ImageView fx:id="one" fitHeight="110.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../kartu%20belakang.PNG" />
+                     </image></ImageView>
+               </graphic></Button>
+            <Button fx:id="twoCard" layoutX="199.0" layoutY="45.0" mnemonicParsing="false" onAction="#clickTwo" prefHeight="110.0" prefWidth="63.0">
+               <graphic>
+                  <ImageView fx:id="two" fitHeight="110.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../kartu%20belakang.PNG" />
+                     </image></ImageView>
+               </graphic></Button>
+            <Button fx:id="threeCard" layoutX="288.0" layoutY="45.0" mnemonicParsing="false" onAction="#clickThree" prefHeight="110.0" prefWidth="63.0">
+               <graphic>
+                  <ImageView fx:id="three" fitHeight="110.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../kartu%20belakang.PNG" />
+                     </image></ImageView>
+               </graphic></Button>
+            <Button fx:id="fourCard" layoutX="14.0" layoutY="166.0" mnemonicParsing="false" onAction="#clickFour" prefHeight="110.0" prefWidth="63.0">
+               <graphic>
+                  <ImageView fx:id="four" fitHeight="110.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../kartu%20belakang.PNG" />
+                     </image></ImageView>
+               </graphic></Button>
+            <Button fx:id="fiveCard" layoutX="108.0" layoutY="166.0" mnemonicParsing="false" onAction="#clickFive" prefHeight="110.0" prefWidth="63.0">
+               <graphic>
+                  <ImageView fx:id="five" fitHeight="110.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../kartu%20belakang.PNG" />
+                     </image></ImageView>
+               </graphic></Button>
+            <Button fx:id="sixCard" layoutX="199.0" layoutY="166.0" mnemonicParsing="false" onAction="#clickSix" prefHeight="110.0" prefWidth="63.0">
+               <graphic>
+                  <ImageView fx:id="six" fitHeight="110.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../kartu%20belakang.PNG" />
+                     </image></ImageView>
+               </graphic></Button>
+            <Button fx:id="sevenCard" layoutX="288.0" layoutY="166.0" mnemonicParsing="false" onAction="#clickSeven" prefHeight="110.0" prefWidth="63.0">
+               <graphic>
+                  <ImageView fx:id="seven" fitHeight="110.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../kartu%20belakang.PNG" />
+                     </image></ImageView>
+               </graphic></Button>
+            <Button fx:id="eightCard" layoutX="14.0" layoutY="290.0" mnemonicParsing="false" onAction="#clickEight" prefHeight="110.0" prefWidth="63.0">
+               <graphic>
+                  <ImageView fx:id="eight" fitHeight="110.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../kartu%20belakang.PNG" />
+                     </image></ImageView>
+               </graphic></Button>
+            <Button fx:id="nineCard" layoutX="108.0" layoutY="290.0" mnemonicParsing="false" onAction="#clickNine" prefHeight="110.0" prefWidth="63.0">
+               <graphic>
+                  <ImageView fx:id="nine" fitHeight="110.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../kartu%20belakang.PNG" />
+                     </image></ImageView>
+               </graphic></Button>
+            <Button fx:id="tenCard" layoutX="199.0" layoutY="290.0" mnemonicParsing="false" onAction="#clickTen" prefHeight="110.0" prefWidth="63.0">
+               <graphic>
+                  <ImageView fx:id="ten" fitHeight="110.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../kartu%20belakang.PNG" />
+                     </image></ImageView>
+               </graphic></Button>
+            <Button fx:id="elevenCard" layoutX="288.0" layoutY="290.0" mnemonicParsing="false" onAction="#clickEleven" prefHeight="110.0" prefWidth="63.0">
+               <graphic>
+                  <ImageView fx:id="eleven" fitHeight="110.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../kartu%20belakang.PNG" />
+                     </image></ImageView>
+               </graphic></Button>
+            <Button fx:id="twelveCard" layoutX="14.0" layoutY="416.0" mnemonicParsing="false" onAction="#clickTwelve" prefHeight="110.0" prefWidth="63.0">
+               <graphic>
+                  <ImageView fx:id="twelve" fitHeight="110.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../kartu%20belakang.PNG" />
+                     </image></ImageView>
+               </graphic></Button>
+            <Button fx:id="thirteenCard" layoutX="108.0" layoutY="416.0" mnemonicParsing="false" onAction="#clickThirteen" prefHeight="110.0" prefWidth="63.0">
+               <graphic>
+                  <ImageView fx:id="thirteen" fitHeight="110.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../kartu%20belakang.PNG" />
+                     </image></ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="fourteenCard" layoutX="199.0" layoutY="416.0" mnemonicParsing="false" onAction="#clickFourteen" prefHeight="110.0" prefWidth="63.0">
+               <graphic>
+                  <ImageView fx:id="fourteen" fitHeight="110.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../kartu%20belakang.PNG" />
+                     </image></ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="fifteenCard" layoutX="288.0" layoutY="416.0" mnemonicParsing="false" onAction="#clickFifteen" prefHeight="110.0" prefWidth="63.0">
+               <graphic>
+                  <ImageView fx:id="fifteen" fitHeight="110.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../kartu%20belakang.PNG" />
+                     </image></ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="play" layoutX="387.0" layoutY="56.0" mnemonicParsing="false" onAction="#start" prefHeight="48.0" prefWidth="105.0" text="Play!" textFill="#ec9797">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+            <TextArea fx:id="highScore" layoutX="387.0" layoutY="255.0" prefHeight="235.0" prefWidth="105.0" />
+            <Text fill="#cd7272" layoutX="392.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Name">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#d16f6f" layoutX="393.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="High Score">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Text fill="#d37777" layoutX="19.0" layoutY="562.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <TextArea fx:id="name" layoutX="387.0" layoutY="137.0" prefHeight="38.0" prefWidth="105.0" />
+            <TextField fx:id="show" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="477.0" />
+            <TextField fx:id="score" layoutX="19.0" layoutY="566.0" prefHeight="25.0" prefWidth="105.0" />
+            <TextField fx:id="move" layoutX="164.0" layoutY="566.0" prefHeight="25.0" prefWidth="105.0" />
+            <Text fill="#bf6f6f" layoutX="164.0" layoutY="561.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Move">
+               <font>
+                  <Font size="14.0" />
+               </font></Text>
+            <Button fx:id="ok" layoutX="446.0" layoutY="184.0" mnemonicParsing="false" onAction="#enterName" prefHeight="19.0" prefWidth="46.0" text="OK" textFill="#c46262" />
+            <Button fx:id="showHS" layoutX="387.0" layoutY="497.0" mnemonicParsing="false" onAction="#printHS" prefHeight="25.0" prefWidth="105.0" text="Show High Score" textFill="#cd6767">
+               <font>
+                  <Font size="11.5" />
+               </font></Button>
+         </children></Pane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
